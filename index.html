@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="form">
+            <input type="text" id="order-total" placeholder="Order Total">
+            <input type="text" id="down-payment" placeholder="Down Payment">
+            <button id="calculate">Calculate Splits</button> 
+            <p id="remainder">Total after down payment: </p>
+        </div> 
+        <div class="results">
+            <div class="month-box" id="12-months">12 months: </div>
+            <div class="month-box" id="24-months">24 months: </div>
+            <div class="month-box" id="39-months">39 months: </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

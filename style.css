@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    width: 175px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.main-container {
+    margin-top: 100px;
+    width: auto;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.month-box {
+    display: flex;
+    height: 35px;
+    width: auto;
+    align-items: center;
+    margin: 2rem 1rem;
+    text-align: center;
+    padding: 5px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#remainder {
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
