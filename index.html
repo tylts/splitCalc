@@ -11,8 +11,8 @@
 <body>
     <div class="main-container">
         <div id="form">
-            <input type="text" id="order-total" placeholder="Order Total">
-            <input type="text" id="down-payment" placeholder="Down Payment">
+            <input type="number" id="order-total" min="0.01" step="0.01" placeholder="Order Total">
+            <input type="number" id="down-payment" min="0.01" step="0.01" placeholder="Down Payment">
             <button id="calculate">Calculate Splits</button> 
             <p id="remainder">Total after down payment: </p>
         </div> 
@@ -25,4 +25,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-

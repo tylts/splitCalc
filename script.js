@@ -9,7 +9,7 @@ months39 = document.getElementById('39-months');
 btn.addEventListener("click", calculateSplit);
 
 function calculateSplit() {
-    totalAfterDown = Math.round((orderTotal.value - downPayment.value) * 100) / 100;
+    totalAfterDown = (Math.round((orderTotal.value - downPayment.value) * 100) / 100).toFixed(2);
     remainder.innerText = `Total after down payment: $${totalAfterDown}`;
     months12.innerText = '12 months: $' + Math.round((totalAfterDown / 12) * 100) / 100 + ' / month';
     months24.innerText = '24 months: $' + Math.round((totalAfterDown / 24) * 100) / 100 + ' / month';
